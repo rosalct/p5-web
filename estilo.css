@@ -1,0 +1,104 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26-nov-2021, 3:09:08
+    Author     : Casa
+*/
+
+ul{                                                /* barra de navegación*/
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: red;
+    
+}
+
+li{
+    float: left;
+}
+
+
+li a{
+  float: left;
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px;
+   text-decoration: none;
+   
+}
+
+li a:hover{
+    background-color: brown;
+}
+
+
+.active {                                                           /* selector de clase */
+    background-color: green;
+}
+
+
+
+*{                                                              /* selector universal*/
+   margin: 3px;
+   padding: 2px;
+      
+}
+
+audio  {
+    border: 6px solid green;
+    border-radius: 10px;
+   
+}
+
+video{
+    border: 6px solid green;
+    border-radius: 10px;
+   
+    
+}
+
+
+q{
+    color: yellow;
+    
+}
+
+body{                                                              /*   selector etiqueta */
+    
+     background-color:violet;
+    
+    font-family: Arial;
+}
+
+#container{                                                      /* selector ID */
+    border: 15px solid blue;
+}
+
+h1{
+   text-align: center;
+    color: red;
+}
+
+ins{
+    
+    color: red; 
+}
+
+aside{
+    
+    background: pink;
+    text-align: center;
+}
+
+
+
+footer{
+    background: cyan;
+    text-align: center;
+    
+}
