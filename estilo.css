@@ -7,12 +7,8 @@ and open the template in the editor.
     Created on : 26-nov-2021, 3:09:08
     Author     : Casa
 */
-/* selector universal*/
-* {
-   margin: 3px;
-   padding: 2px;
-}
-ul{                                                /* barra de navegación*/
+
+ul{                                                /* barra de navegaci�n*/
     list-style-type: none;
     margin: 0px;
     padding: 0px;
@@ -69,6 +65,7 @@ video{
 
 q{
     color: black;
+    
 }
 
 body{                                                              /*   selector etiqueta */
@@ -105,3 +102,20 @@ footer{
     text-align: center;
     
 }
+
+form {
+    display: flex;
+    justify-content: space-around;
+}
+
+textarea {
+    width: 500px;
+}
+
+figure{
+   float: left;
+   }
+   
+   figure img:hover{
+       -webkit-transform: scale(1.2);
+   }

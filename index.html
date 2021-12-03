@@ -8,17 +8,18 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="normalize.css" />
+        <!-- <link rel="stylesheet" href="normalize.css" /> -->
         <link rel="stylesheet"  href="estilo.css" />
-        <link rel="stylesheet"  href="./bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet"  href="./bootstrap/css/bootstrap.min.css">
         <title>Orquídeas de Rosa</title>
     </head>
      <body>
         <div id="container">
-        <img src="imagen/img1.jpg" alt="orq" height="250"> 
+            <figure>
+        <img src="imagen/img1.jpg" alt="orq" height="250">
         <img src="imagen/img2.jpg"  alt="orq" height="250">
         <img src="imagen/img6.jpg" alt="orq" height="250">    <br> <br> 
-             
+            </figure> 
         
         <header>
             <h1 class="text-primary"> Amo las orquídeas </h1>
@@ -141,6 +142,7 @@ Es  Amor, afecto, admiración y cariño .
             <p>
                 <ins id="Álbum">Álbum</ins>
             </p>
+            <figure>
              <img src="imagen/img11.jpg" alt="orq" height="200"> 
              <img src="imagen/img3.jpg" alt="orq" height="200"> 
             <img src="imagen/img4.jpg"  alt="orq" height="200">
@@ -149,16 +151,24 @@ Es  Amor, afecto, admiración y cariño .
             <img src="imagen/img8.jpg"  alt="orq" height="200">
             <img src="imagen/img9.jpeg"  alt="orq" height="200">
             <img src="imagen/img10.jpg"  alt="orq" height="200">
-            
+            </figure>
             <br>
             
             <aside>
                 <ins id="Contáctenos"> Contáctenos </ins>     <br>
                 
-                Familia Cedeño Tamayo, Santiago de Cuba, Contramaestre, Los Pazos  <br>
+                <address>
+                    <strong>Familia Cedeño Tamayo</strong><br>
+                     Santiago de Cuba, Contramaestre, Los Pazos  <br>
+                    Facebook: Rosa Cedeño    <br>
+                    <abbr title="Phone">Tel:</abbr>56586487
+                </address>
+                
+                
+              <!--  Familia Cedeño Tamayo, Santiago de Cuba, Contramaestre, Los Pazos  <br>
                     Facebook: Rosa Cedeño    <br>
                 
-                Estamos a su servicio las 24 horas del día
+                Estamos a su servicio las 24 horas del día   -->
             </aside>
             
             
@@ -166,7 +176,8 @@ Es  Amor, afecto, admiración y cariño .
               
            <label > Deja tú comentario:</label>
         <textarea id="search" name="comenta"></textarea>
-        <input class="sendButton" type="button" value="Enviar"> 
+        <input class="btn btn-success" type="button" value="Enviar">
+        <input class="btn btn-danger" type="button" value="Cancelar"> 
         
         </form> 
         </section>
@@ -176,6 +187,6 @@ Es  Amor, afecto, admiración y cariño .
             <time>16:00  </time>                           <!--para la hora o fecha -->
         </footer> 
         </div>
-       <script src="./bootstrap/js/bootstrap.min.js"></script>
+        <script src="./bootstrap/js/bootstrap.min.js"></script>
     </body>
 </html>
