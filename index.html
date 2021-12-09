@@ -11,6 +11,7 @@ and open the template in the editor.
         <!-- <link rel="stylesheet" href="normalize.css" /> -->
         <link rel="stylesheet"  href="estilo.css" />
         <link rel="stylesheet"  href="./bootstrap/css/bootstrap.min.css">
+         
         <title>Orquídeas de Rosa</title>
     </head>
      <body>
@@ -49,7 +50,6 @@ and open the template in the editor.
                 Las orquídeas constituyen un grupo de plantas de morfología extremadamente diversa. Su tamaño varía desde unos pocos milímetros de longitud  hasta gigantescas agregaciones que pueden pesar varios cientos de kilogramos  o longitudes de hasta 13,4 m.
             </p>            
         </section>
-        
         
         <section>
             <article>
@@ -120,7 +120,7 @@ Es  Amor, afecto, admiración y cariño .
                 En la actualidad, regalar una orquídea tiene un significado de belleza y una demostración de aprecio y admiración.
             </p>
             
-            <img src="imagen/frase.jpg" alt="frase" height="250" width="350">
+            <img src="imagen/frase.jpg" id="frase" alt="frase" height="250" width="350">
             
             <p>
                 <ins id="Duración">Duración de las flores  </ins>        <br>
@@ -176,7 +176,7 @@ Es  Amor, afecto, admiración y cariño .
               
            <label > Deja tú comentario:</label>
         <textarea id="search" name="comenta"></textarea>
-        <input class="btn btn-success" type="button" value="Enviar">
+        <input id="enviar" class="btn btn-success" type="button" value="Enviar">
         <input class="btn btn-danger" type="button" value="Cancelar"> 
         
         </form> 
@@ -187,6 +187,7 @@ Es  Amor, afecto, admiración y cariño .
             <time>16:00  </time>                           <!--para la hora o fecha -->
         </footer> 
         </div>
+		<script src="script.js"></script>
         <script src="./bootstrap/js/bootstrap.min.js"></script>
     </body>
 </html>
